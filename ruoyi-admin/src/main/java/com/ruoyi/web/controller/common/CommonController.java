@@ -163,4 +163,11 @@ public class CommonController
             log.error("下载文件失败", e);
         }
     }
+
+    @GetMapping("/download/resource")
+    public void resourceDownloadaaa(String resource, HttpServletRequest request, HttpServletResponse response)
+            throws Exception
+    {
+
+    }
 }
